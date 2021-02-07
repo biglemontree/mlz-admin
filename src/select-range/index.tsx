@@ -45,7 +45,6 @@ export const SelectRange = ({ selectOptions, currentValue = [], width, onChange 
   }
   const [beginI, endI] = findCurrentI();
   const bem = createBem('range');
-  console.log(bem('input_disabled'));
 
   return (
     <div>
